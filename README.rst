@@ -10,13 +10,13 @@ To run the examples in your local environment::
 
   1. Clone the repository::
 
-        git clone https://github.com/
+        git clone https://github.com/Hambert/python-flask.git
         cd flask-examples
 
-  2. Create and activate a virtual environment::
+  2. Create and activate a virtual environment:
 
-        virtualenv env -p python3
-        source env/bin/activate
+        virtualenv venv -p python3
+        source venv/bin/activate
 
   3. Install requirements::
 
