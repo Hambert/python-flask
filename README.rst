@@ -8,20 +8,17 @@ How to use
 Every example are in his own folder. 
 To run the examples in your local environment::
 
-  1. Clone the repository::
 
-        git clone https://github.com/Hambert/python-flask.git
-        cd flask-examples
+flask_parameters
+flask_sessions
+flask_templates
 
-  2. Create and activate a virtual environment:
+flaskApp
 
-        virtualenv venv -p python3
-        source venv/bin/activate
+export FLASK_APP=flaskApp
+export FLASK_ENV=development
 
-  3. Install requirements::
+flask init-db
 
-        pip3 install -r 'requirements.txt'
+flask run
 
-  4. Run the application::
-
-        python templates/main.py
